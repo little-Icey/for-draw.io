@@ -92,6 +92,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="7a6S5qip2CbtULaV-IqG-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZmvpG405brdyFuqUziVW-21" target="ZmvpG405brdyFuqUziVW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a6S5qip2CbtULaV-IqG-67" value="初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7a6S5qip2CbtULaV-IqG-66">
+          <mxGeometry x="-0.0672" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZmvpG405brdyFuqUziVW-21" value="Agent核心代码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="550" y="405" width="120" height="40" as="geometry" />
         </mxCell>
@@ -100,19 +108,6 @@
         </mxCell>
         <mxCell id="7a6S5qip2CbtULaV-IqG-58" value="伴随应用启动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZmvpG405brdyFuqUziVW-22">
           <mxGeometry x="0.3272" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZmvpG405brdyFuqUziVW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="ZmvpG405brdyFuqUziVW-24" target="ZmvpG405brdyFuqUziVW-27" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="700" y="343" />
-              <mxPoint x="700" y="420" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7a6S5qip2CbtULaV-IqG-65" value="初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZmvpG405brdyFuqUziVW-23">
-          <mxGeometry x="-0.2885" y="-7" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -139,13 +134,13 @@
         <mxCell id="ZmvpG405brdyFuqUziVW-29" value="配置文件" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="740" y="362.5" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZmvpG405brdyFuqUziVW-30" value="插件管理器" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="ZmvpG405brdyFuqUziVW-30" value="Hook点管理器" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="860" y="357.5" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="ZmvpG405brdyFuqUziVW-31" value="字节码增强&lt;div&gt;管理器&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="740" y="445" width="90" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="ZmvpG405brdyFuqUziVW-32" value="Transform事件监听器" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="ZmvpG405brdyFuqUziVW-32" value="本地类文件&lt;div&gt;扫描器&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="860" y="445" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="ZmvpG405brdyFuqUziVW-33" value="Instrument Classloader" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
